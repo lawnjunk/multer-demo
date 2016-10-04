@@ -1,4 +1,8 @@
 'use strict'
+
+// aws mocks
+require('./lib/aws-mocks.js')
+
 const expect = require('chai').expect
 const server = require('../server.js')
 
