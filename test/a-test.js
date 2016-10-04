@@ -1,5 +1,8 @@
 'use strict'
+process.env.test = true
+
 const expect = require('chai').expect
+require('./lib/aws-mocks.js')
 const server = require('../server.js')
 
 describe('fake', function() {
